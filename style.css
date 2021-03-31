@@ -29,12 +29,15 @@ li a {
 }
 #col1 {
   background-color: #ffdf80;
+  height: 33%;
 }
 #col2 {
   background-color: #ffbf00;
+  height: 33%;
 }
 #col3 {
   background-color: #806000;
+  height: 33%;
 }
 #firstBox p {
   color: white;
