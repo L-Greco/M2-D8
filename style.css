@@ -6,7 +6,7 @@ li a {
 }
 #firstBox {
   height: 400px;
-  background-color: #00b33c;
+  background-color: #6bb56b;
   border-top: solid;
   border-bottom: solid;
   border-left: solid;
@@ -16,11 +16,14 @@ li a {
 }
 #secondBox {
   height: 400px;
-  background-color: #3399ff;
+  background-color: #299bff;
   border: solid;
 }
+#secondBox > p {
+  font-weight: 700;
+  font-size: small;
+}
 #thirdBox {
-  height: 400px;
   border-top: solid;
   border-right: solid;
   border-bottom: solid;
@@ -28,16 +31,13 @@ li a {
   border-top-right-radius: 50px;
 }
 #col1 {
-  background-color: #ffdf80;
-  height: 33%;
+  background-color: #fff7bd;
 }
 #col2 {
-  background-color: #ffbf00;
-  height: 33%;
+  background-color: #ffed69;
 }
 #col3 {
-  background-color: #806000;
-  height: 33%;
+  background-color: #ffe41f;
 }
 #firstBox p {
   color: white;

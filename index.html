@@ -10,10 +10,10 @@
   <body>
     <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link active" href="#"><h3>Navbar</h3></a>
+          <a class="nav-link active" href="#"><h4 style="padding-left : 14rem;opacity: 0.8;">Navbar</h4></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+        <li class="nav-item d-flex align-items-center">
+          <a class="nav-link " style="opacity: 0.9;" href="#">Home</a>
         </li>    
       </ul>
 
@@ -21,19 +21,21 @@
           <div class="container">
               <div class="row">
                   <div class="col-8 offset-2">
+                      <h3 class="text-center">Exersise 1 </h3>
+                    <p class="text-center" style="font-size: 13px;">Ricreate thiss table just using Bootstrap4 classes or styling, without adding / removing any DOM element</p> 
                       <div class="row">
-                          <div id="firstBox" class="col-6 no-gutters d-flex justify-content-center ">
+                          <div id="firstBox" class="col-6 no-gutters d-flex justify-content-center align-items-center ">
                               <p class="text-center">First Column <br>Height 400px <br> Green-ish background <br>Text Centered </p>
                              
                           </div>
-                          <div id="secondBox" class="col-2 no-gutters d-flex justify-content-end">
-                              <p class="text-center"> Second Column <br> Text to the 
-                            bottom  </p>
+                          <div id="secondBox" class="col-2 no-gutters p-0 m-0 pl-1 d-flex  flex-column justify-content-end">  <!-- flex column is required to manipulate in y axis / or u can use .flex-column-reverse to from the vertical direction-->
+                              <p class="pl-1 text-white "> Second Column <br> Text to the 
+                            bottom <br> Bold,blueish <br> background </p>
                           </div>
-                          <div id="thirdBox" class="col-4 no-gutters d-flex flex-column">
-                              <div id="col1" class="p-0 container-fluid"> Third Column Part 1</div>
-                              <div id="col2" class="">Third Column Part 2</div>
-                              <div id="col3" class="">Third Column Part 3</div>
+                          <div id="thirdBox" class="col-4 p-0 d-flex flex-column justify-content-center align-items-stretch align-items-center overflow-hidden">
+                              <div id="col1" class="d-flex flex-grow-1 justify-content-center align-items-center "> Third Column Part 1</div>
+                              <div id="col2" class="d-flex flex-grow-1 justify-content-center align-items-center">Third Column Part 2</div>
+                              <div id="col3" class="d-flex flex-grow-1 justify-content-center align-items-center">Third Column Part 3</div>
                           </div>
                       </div>
                       <section id="q2">
