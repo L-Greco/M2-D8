@@ -1,0 +1,42 @@
+.nav {
+  background-color: #3366ff;
+}
+li a {
+  color: white;
+}
+#firstBox {
+  height: 400px;
+  background-color: #00b33c;
+  border-top: solid;
+  border-bottom: solid;
+  border-left: solid;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  position: relative;
+}
+#secondBox {
+  height: 400px;
+  background-color: #3399ff;
+  border: solid;
+}
+#thirdBox {
+  height: 400px;
+  border-top: solid;
+  border-right: solid;
+  border-bottom: solid;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+#col1 {
+  background-color: #ffdf80;
+}
+#col2 {
+  background-color: #ffbf00;
+}
+#col3 {
+  background-color: #806000;
+}
+#firstBox p {
+  color: white;
+  margin: auto;
+}
